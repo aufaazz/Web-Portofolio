@@ -24,43 +24,43 @@
               <v-col cols="12">
                 <div class="child bgColor1">
             
-                  <v-icon color="#F9B83B" x-large class="ml-3"
+                  <!-- <v-icon color="#F9B83B" x-large class="ml-3"
                     >mdi-palette-swatch</v-icon
-                  >
+                  > -->
                   <h3 class="yellow--text text--darken-2 ml-3 mt-4">UI Design</h3>
                   <p class="grey--text ml-3 mt-6">
                     User Interface design : <br />websites, applications, software, etc.
                   </p>
                   <v-btn color="#F9B83B" dark text>
                     know more
-                    <v-icon right>mdi-arrow-right</v-icon>
+                    <!-- <v-icon right>mdi-arrow-right</v-icon> -->
                   </v-btn>
                 </div>
                 <div class="child bgColor2">
-                  <v-icon color="" x-large class="ml-3" dark>
+                  <!-- <v-icon color="" x-large class="ml-3" dark>
                     mdi-shopping
-                  </v-icon>
+                  </v-icon> -->
                   <h3 class="white--text ml-3 mt-4">Product Design</h3>
                   <p class="grey--text ml-3 mt-6">
                     Product Design : <br />research, prototyping, others. 
                   </p>
                   <v-btn color="" dark text>
                     know more
-                    <v-icon right>mdi-arrow-right</v-icon>
+                    <!-- <v-icon right>mdi-arrow-right</v-icon> -->
                   </v-btn>
                 </div>
 
                 <div class="child bgColor1">
-                  <v-icon color="#F9B83B" x-large class="ml-3"
+                  <!-- <v-icon color="#F9B83B" x-large class="ml-3"
                     >mdi-book-open-page-variant</v-icon
-                  >
+                  > -->
                   <h3 class="yellow--text text--darken-2 ml-3 mt-4">UX Design</h3>
                   <p class="grey--text ml-3 mt-6">
                     User Experience design : <br />research, information architecture, etc.
                   </p>
                   <v-btn color="#F9B83B" dark text>
                     know more
-                    <v-icon right>mdi-arrow-right</v-icon>
+                    <!-- <v-icon right>mdi-arrow-right</v-icon> -->
                   </v-btn>
                 </div>
               </v-col>
@@ -138,7 +138,7 @@
 
           <v-btn color="#F9B83B" dark text class="ml-n4">
             know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <!-- <v-icon right>mdi-arrow-right</v-icon> -->
           </v-btn>
         </v-col>
         <v-col md="3">
@@ -146,7 +146,7 @@
 
           <v-btn color="#F9B83B" dark text class="ml-n4">
             know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <!-- <v-icon right>mdi-arrow-right</v-icon> -->
           </v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
@@ -175,14 +175,14 @@
 
           <v-btn color="#F9B83B" dark text class="ml-n4">
             know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <!-- <v-icon right>mdi-arrow-right</v-icon> -->
           </v-btn>
         </v-col>
         <v-col md="3">
           <v-btn color="black" dark text class="ml-n4"> Muslimate </v-btn><br />
           <v-btn color="#F9B83B" dark text class="ml-n4">
             know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <!-- <v-icon right>mdi-arrow-right</v-icon> -->
           </v-btn>
         </v-col>
         <v-col cols="12" class="padd topInverse">
@@ -231,9 +231,9 @@ import Footer from "../components/Footer.vue";
 
 export default {
   name: "Home",
-  data: () => ({
-    icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
-  }),
+  // data: () => ({
+  //   icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+  // }),
   components: {
     NavBar,
     Footer,
